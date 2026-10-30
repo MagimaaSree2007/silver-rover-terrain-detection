@@ -1,0 +1,56 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3at.proto"
+
+WorldInfo {
+  info [
+    ""
+  ]
+}
+Viewpoint {
+  orientation -0.5924581607900079 -0.05920553362434413 0.8034226985227503 3.301829013195219
+  position 3.9069913017303746 0.21459621388069086 9.096895968793254
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+}
+Pioneer3at {
+  hidden position_0_0 44.99106301181835
+  hidden position_0_1 35.34590828411626
+  hidden position_0_2 427.40730113271167
+  hidden position_0_3 39.29539087371984
+  hidden linearVelocity_0 0.3290717920729345 -0.024733696462987485 6.846612732885916e-12
+  hidden angularVelocity_0 5.022459948850382e-07 -3.7086585484376793e-08 -1.9705879329969538e-07
+  hidden rotation_4 -0.26724430506094987 0.2672446960005343 0.9258297650605493 4.63538896591368
+  hidden linearVelocity_4 0.3290717855010918 -0.02473367538957331 9.735656128258369e-08
+  hidden angularVelocity_4 0.2248514301051807 2.991561770701831 -1.3291841145794416e-06
+  hidden rotation_5 0.6788282917569228 -0.6788203239687365 0.27999128214527946 3.687592812574869
+  hidden linearVelocity_5 0.3290718136896385 -0.02473366416783219 -9.717789552573241e-08
+  hidden angularVelocity_5 0.22485149770803753 2.9915617714946556 -1.288124696178811e-06
+  hidden rotation_6 0.546090302518734 -0.5460868227764107 -0.6352751872102063 2.0096964252752345
+  hidden linearVelocity_6 0.3290717758198656 -0.02473365455033501 9.718414969907924e-08
+  hidden angularVelocity_6 0.22485142605189842 2.9915617685916676 -1.3028612523232861e-06
+  hidden rotation_7 -0.012739973237530226 0.012736437186507426 -0.9998377249582562 1.5709689048126758
+  hidden linearVelocity_7 0.32907180412764503 -0.024733644772764594 -9.73508609587864e-08
+  hidden angularVelocity_7 0.22485145419669494 2.9915617723979815 -1.3506802276854656e-06
+  translation 1.638056190157437 0.30077140188413 -0.002388931067913269
+  rotation 1.9769684577480884e-05 0.0006553951319209938 -0.9999997850331671 0.07502069156559893
+  controller "silver_rover_controller"
+  controllerArgs [
+    ""
+  ]
+  extensionSlot [
+    Gyro {
+    }
+    InertialUnit {
+    }
+    Accelerometer {
+    }
+  ]
+}
